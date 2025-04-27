@@ -23,7 +23,6 @@ int findMajority(vector<int>nums){
  }
 int main (){
   vector<int>nums = {1, 3, 3, 3, 5};
-  
   cout<<"The majority element is "<<findMajority(nums);
 
     return 0;
