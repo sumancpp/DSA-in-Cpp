@@ -26,7 +26,8 @@ int main()
     int target = 7;
 
     vector<int> ans = findPairSum(nums, target);
-    cout << ans[0] << "," << ans[1];
+    cout << ans[0] << "," << ans[1];  
+
 
     return 0;
 }
