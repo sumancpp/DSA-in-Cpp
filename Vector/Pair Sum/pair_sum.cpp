@@ -1,6 +1,7 @@
 //Return pair in sorted array with target sum.
-#include <iostream>
-#include <vector>
+
+#include<iostream>
+#include<vector>
 using namespace std;
 vector<int> findPairSum(vector<int> nums, int target)
 {
@@ -27,7 +28,6 @@ int main()
 
     vector<int> ans = findPairSum(nums, target);
     cout << ans[0] << "," << ans[1];  
-
 
     return 0;
 }
