@@ -32,7 +32,6 @@ int main(){
   // cout<<vec.back()<<endl;
   // cout<<vec.at(1)<<endl;
 
-
   vector<int>vec;
   vec.push_back(0);
   vec.push_back(1);
