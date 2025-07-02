@@ -38,7 +38,6 @@ int getDistance(vector<int>arr, int N, int C){
 int main(){
    int N = 5, C = 3;
    vector<int>arr = {1, 2, 8, 4, 9};
-
    cout<<getDistance(arr, N, C)<<endl;
     return 0;
 }
