@@ -2,6 +2,7 @@
 #include<iostream>
 using namespace std;
 int main(){
+
      int arr[]={1,2,-3,4,5};
      int size=5;
      int currSum = 0;
@@ -16,5 +17,6 @@ int main(){
      
      cout<<"The maximum subarray is "<<maxSum;
      
+
     return 0;
 }
