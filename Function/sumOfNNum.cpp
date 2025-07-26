@@ -7,6 +7,7 @@ int sumOfNNum (int a){
     }
     return total;
 }
+
 int main() {
     int num;
     cout<<"Enter a number ";
