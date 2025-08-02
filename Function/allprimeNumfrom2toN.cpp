@@ -21,6 +21,7 @@ void printPrimes(int N) {
     cout << endl;
 }
 
+
 int main() {
     int N;
     cout << "Enter the value of N: ";
@@ -30,3 +31,4 @@ int main() {
 
     return 0;
 }
+
