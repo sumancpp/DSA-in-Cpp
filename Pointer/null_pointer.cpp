@@ -2,8 +2,7 @@
 using namespace std;
 int main(){
 int *ptr = NULL;
- 
-
+ 
    // practice question
    int a = 5;
    int *p = &a;
@@ -13,6 +12,7 @@ int *ptr = NULL;
    cout<< **q <<endl;//5
    cout<< p <<endl;
    cout<< *q <<endl;
+
 
     return 0;
 }
