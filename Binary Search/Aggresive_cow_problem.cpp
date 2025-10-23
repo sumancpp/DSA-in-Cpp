@@ -16,6 +16,7 @@ bool isPossible(vector<int>& arr, int N, int C, int minDist) {
           }
       }
   }
+
   return false;
 }
 
