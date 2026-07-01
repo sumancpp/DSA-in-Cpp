@@ -34,7 +34,7 @@ int main (){
     //  cout<<sizeof(long int)<<endl;
     //  cout<<sizeof(short int)<<endl;
 
-    unsigned int x = -10;
+    unsigned int x = -20;
     cout<<x;
 
     return 0;
