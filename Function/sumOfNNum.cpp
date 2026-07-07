@@ -13,7 +13,5 @@ int main() {
     cout<<"Enter a number ";
     cin>>num;
     cout<< "The sum of 1 to "<<num <<" is "<<sumOfNNum(num);
-     
-
     return 0;
 }
