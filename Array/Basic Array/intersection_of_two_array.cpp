@@ -17,5 +17,6 @@ int main(){
   int arr2Size=5;
 
    findIntersection(arr1,arr2,arr1Size,arr2Size);
+
     return 0;
 }
