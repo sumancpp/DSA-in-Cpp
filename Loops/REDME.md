@@ -29,9 +29,3 @@ There are four primary loop structures available in C++:
 * **do-while**: Similar to a `while` loop, but guarantees the block of code executes at least once before checking the condition.
 * **Range-based for**: Simplifies iteration over arrays, vectors, and other standard containers without requiring a manual counter.
 
-* | Loop     | Condition Checked | Executes At Least Once? |
-| -------- | ----------------- | ----------------------- |
-| for      | Before            | No                      |
-| while    | Before            | No                      |
-| do-while | After             | Yes                     |
-
