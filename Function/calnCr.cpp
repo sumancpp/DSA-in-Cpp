@@ -10,14 +10,12 @@ int calfact(int num){
 int calnCr (int n, int r){
    int fact_n = calfact(n);
    int fact_r = calfact(r);
-   int fact_nmr = calfact(n-r);
-
+   int fact_nmr = calfact(n-r);
    return fact_n / (fact_r * fact_nmr);
 }
  
 int main (){
     int n = 8, r = 2;
-   cout<<calnCr(n,r);
-
+   cout<<calnCr(n,r);
     return 0;
 }
