@@ -9,7 +9,7 @@ using namespace std;
  }
 int main(){
      cout<<factN(5)<<endl;
-     cout<<factN(8);
-   
+     cout<<factN(8)<<endl;
+     cout<<factN(10);
     return 0;
 }
