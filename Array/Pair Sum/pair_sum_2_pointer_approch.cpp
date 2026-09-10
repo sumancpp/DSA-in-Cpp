@@ -6,7 +6,6 @@ vector<int> findPairSum(vector<int> nums, int target)
 {
     vector<int> ans;
     int size = nums.size();
-
     int i = 0, j = size - 1;
     while (i < j)
     {
@@ -30,8 +29,7 @@ vector<int> findPairSum(vector<int> nums, int target)
 int main()
 {
     vector<int> nums = {1, 2, 3, 4, 5};
-    int target = 7;
-
+    int target = 6;
     vector<int> ans = findPairSum(nums, target);
     cout << ans[0] << "," << ans[1];
 
