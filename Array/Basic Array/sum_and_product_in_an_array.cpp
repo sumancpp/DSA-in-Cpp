@@ -8,7 +8,7 @@ int findSum(int arr[],int size,int ans){
     return ans;
 }
 int main(){
-    int arr[]{1,3,5,7,9};
+    int arr[]{1,3,5,8,9};
     int size = 5;
     int ans = 0;
     // findSum(arr,size,ans);
