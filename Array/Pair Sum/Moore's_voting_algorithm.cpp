@@ -18,7 +18,5 @@ int majorityElement (vector<int>nums){
 int main () {
     vector<int>nums = {1, 3, 3, 3, 5};
     cout<<"Majority element "<<majorityElement(nums);
-
-
     return 0;
 }
