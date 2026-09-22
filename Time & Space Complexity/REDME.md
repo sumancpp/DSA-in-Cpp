@@ -1429,5 +1429,6 @@ Exponential    → O(2ⁿ)
 Factorial      → O(n!)
 ```
 
+
 > **Remember:** Big O focuses on the growth rate of an algorithm as the input size becomes large.
 
