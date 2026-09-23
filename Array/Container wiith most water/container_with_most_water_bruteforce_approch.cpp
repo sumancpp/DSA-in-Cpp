@@ -12,10 +12,9 @@ int main(){
             maxWater=max(maxWater,currWater);
         }
      }
+     
      cout<<maxWater;
- 
+     
     return 0;
 }
-
-
 //This code takes o(n^2) time 
