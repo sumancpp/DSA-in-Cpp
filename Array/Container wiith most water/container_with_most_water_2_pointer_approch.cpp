@@ -1,7 +1,6 @@
 #include<iostream>
 using namespace std;
 int main(){
-
 int arr[]={1,8,6,2,5,4,8,3,7};
 int size = 9;
 int lp = 0;
@@ -14,7 +13,6 @@ while(lp<rp){
     int currWater = w * h;
     maxWater = max(currWater,maxWater);
     arr[lp] < arr[rp] ? lp++ : rp--;
-
 }
   cout<<maxWater;
 
