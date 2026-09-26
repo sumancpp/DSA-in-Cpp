@@ -24,7 +24,7 @@ double myPow(double x, int n) {
 }
 
 int main() {
-    cout << myPow(5,3) << endl; // Example usage
+    cout << myPow(5,3) << endl;
 
     return 0;
 }
