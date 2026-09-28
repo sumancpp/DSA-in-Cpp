@@ -17,6 +17,7 @@ while(lp<rp){
   cout<<maxWater;
 
  return 0;
+
 }
 
 // This code takes time o(n)
