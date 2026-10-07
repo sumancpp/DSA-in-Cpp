@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
+
 vector<int>productExceptSelf(vector<int>&nums){
       int size = nums.size();
   vector<int>ans(size,1);
