@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-// void changeA(int *ptr){//pass by reference using pointers
+// void changeA(int* ptr){//pass by reference using pointers
 //     *ptr = 20;
 // }
 
