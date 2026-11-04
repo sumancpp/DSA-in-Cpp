@@ -8,9 +8,9 @@ int binsearch(vector<int>arr, int target){
       //int mid = (start + end) / 2;
       int mid = start + (end - start) / 2;
       if( target > arr[mid]){
-        start = mid + 1;
+        start = mid + 1; // Right Side
       }else if( target < arr[mid]){
-        end = mid - 1;
+        end = mid - 1; // Left Side
       }
       else{
         return mid;
