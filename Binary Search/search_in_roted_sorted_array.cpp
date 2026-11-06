@@ -25,13 +25,12 @@ int search(vector<int>& arr, int target) {
            }
         }
     }
-    return -1;
+    return -1;// if target not found in array
 }
 
 int main(){
  vector<int>arr={7, 8, 9, 0, 1, 2, 3, 4, 5, 6};
  int target = 6;
  cout<<search(arr,target);
-
     return 0;
 }
