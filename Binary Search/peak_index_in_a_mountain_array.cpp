@@ -27,6 +27,5 @@ int main()
     vector<int> arr = {0, 1, 3, 5, 2, -4};
     int peak = peakIndexInMountainArray(arr);
     cout << "The peak index number is " << peak;
-
     return 0;
 }
