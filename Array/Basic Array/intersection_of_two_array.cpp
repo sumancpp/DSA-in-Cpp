@@ -6,6 +6,7 @@ void findIntersection(int arr1[],int arr2[],int arr1Size,int arr2Size){
         for(int j=0;j<arr2Size;j++){
             if(arr1[i]==arr2[j]){
                 cout<<arr1[i]<<" ";
+                
             }
         }
     }
