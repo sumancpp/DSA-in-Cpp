@@ -30,7 +30,7 @@ int search(vector<int>& arr, int target) {
 
 int main(){
  vector<int>arr={7, 8, 9, 0, 1, 2, 3, 4, 5, 6};
- int target = 6;
+ int target = 7;
  cout<<search(arr,target);
     return 0;
 }
