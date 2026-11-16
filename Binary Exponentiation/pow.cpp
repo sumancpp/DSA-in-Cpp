@@ -21,6 +21,7 @@ double myPow(double number, int power) {
         number *= number;
         binForm /= 2;
     }
+    
     return ans;
 }
 
