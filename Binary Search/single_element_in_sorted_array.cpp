@@ -30,13 +30,13 @@ using namespace std;
             return -1;
         }
 
-int main (){
-
+int main ()
+{
+        
 vector<int>nums = {1,2,2,3,3,4,4,8,8};
 int ans = singleNonDuplicate(nums);
 cout<<"The answer is "<<ans;
-
-
+        
     return 0;
 }
     
