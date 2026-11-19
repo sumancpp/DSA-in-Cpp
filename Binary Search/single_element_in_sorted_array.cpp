@@ -8,8 +8,10 @@ using namespace std;
             int start = 0, end = size-1;
             while(start <= end){
                 int mid = start + (end - start) / 2;
+                    
                 if(mid == 0 && nums[0] != nums[1] ) return nums[mid];
                 if(mid == nums[size-1] && nums[size-1] != nums[size-2] ) return nums[mid];
+                    
                 if(nums[mid-1] != nums[mid] && nums[mid] != nums[mid+1]) return nums[mid];
     
                 if(mid % 2 == 0) { // even
